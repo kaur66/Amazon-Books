@@ -12,8 +12,6 @@ source("DataQualityReport.R")
 
 amazon_logo = "http://cdn.wccftech.com/wp-content/uploads/2015/03/amazon.png"
 
-setwd("C:/Users/Harpreet/Documents/Academics/Mod 5/MGMT 590 R/app")
-getwd()
 abs <- data.frame(read.csv(file = "ABS.csv", sep = ",", header = TRUE))
 head(abs,5)
 source("Analysis.R")
